@@ -87,27 +87,9 @@ vuelve a desplegar (`vercel --prod`) para que tomen efecto.
 > privada/secreta — el Public Key de EmailJS está diseñado para
 > exponerse en el frontend, así que esto es seguro.
 
----
 
-## 4. Cosas para revisar antes de publicar
 
-- **`src/data/content.js`** — todo el texto del sitio vive aquí:
-  precios, horarios, redes, misión, currículo, etc. Edítalo sin tocar
-  componentes.
-- **Testimonios**: los tres testimonios actuales son de ejemplo.
-  Reemplázalos con citas reales de alumnas antes de publicar
-  (están marcados con un comentario en `content.js`).
-- **Horario / fecha de inicio**: el objeto `schedule` en `content.js`
-  tiene el horario de sábados; actualiza la fecha de la próxima
-  cohorte.
-- **Imágenes**: están en `public/images/`, extraídas del material de
-  marca que compartiste. Puedes reemplazarlas o agregar más — solo
-  usa el mismo nombre de archivo o actualiza la ruta en `content.js`
-  / `Hero.jsx`.
-
----
-
-## 5. Estructura
+## 1. Estructura
 
 ```
 src/
